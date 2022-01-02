@@ -88,7 +88,7 @@ console.log(window.bar); // undefined
 
 ## Redeclaration
 - In strict mode, var will let you re-declare the same variable in the same scope while let raises a SyntaxError.
-- 
+
 ```javascript
 'use strict';
 var foo = "foo1";
